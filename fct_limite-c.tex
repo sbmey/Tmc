@@ -1,0 +1,486 @@
+\section{Limite d'une fonction en $\boldmath{+\infty}$}
+
+\begin{centered}
+$f$ est une fonction dont l'ensemble de définition contient un intervalle de la forme $\intervalleo{x_0;+\infty}$ avec $x_0\in\R$.
+\end{centered}
+
+	\subsection{Limite finie, asymptote horizontale}
+
+\begin{dfn}
+Soit $\ell$ un réel. Dire que la fonction $f$ admet pour limite $\ell$ quand $x$ tend vers $+\infty$ signifie que tout intervalle ouvert contenant $\ell$ contient toutes les valeurs $f(x)$ pour tout $x$ suffisamment grand.\newline
+On écrit $\lim\limits_{x\to +\infty} f(x)=\ell$ ou $ \lim\limits_{+\infty} f=\ell$.
+\end{dfn}
+
+\begin{prp}
+$ \lim\limits_{x\to +\infty}f(x)=\ell \Longleftrightarrow \lim\limits_{x\to +\infty}\left( f(x)-\ell\right)=0 \Longleftrightarrow \lim\limits_{x\to +\infty}\lvert f(x)-\ell\rvert=0$.
+\end{prp}
+
+\begin{dfn}
+Si $ \lim\limits_{x\to +\infty} f(x)=\ell$ alors on dit que la droite d'équation $y=\ell$ est asymptote horizontale à $\mathcal C_f$ en $+\infty$.
+\end{dfn}
+
+\begin{intgr}\label{fct:c:intg:limite:finie:def}~\newline
+%     \begin{minipage}{0.47\linewidth}%
+%   \tikzsetnextfilename{suite-c-limite-finie}
+%\animategraphics[controls,poster=first]{3}{/home/myself/Travail/0-Ranger/Archives/travail/2013-2014/ts/src/ts-suites-limites-c-limitefinie-anim-multipagespdf}{}{}
+\begin{minipage}{0.48\linewidth}
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limitefinie-anim-multipagespdf}%
+	{}{}
+   \end{minipage}
+\hfill
+   \begin{minipage}{0.47\linewidth}%
+ On note $\crbf$ la courbe représentative de $f$ et $\mathcal D$ la droite d'équation $y=\ell$.\newline
+ Quel que soit l'intervalle ouvert $I$ contenant $\ell$ (en rouge sur l'axe des ordonnées), on peut trouver un réel $\alpha$ tel que $f(x)$ soit dans $I$ pour tout réel $x>\alpha$.\newline
+$M$ et $N$ étant les points de $\crbf$ et $\mathcal D$ d'abscisse $x$, la distance $MN=\lvert f(x)-\ell\rvert$ est alors aussi proche de $0$ que l'on veut pour tout $x$ suffisamment grand : $\mathcal D$ est asymptote à $\crbf$ au voisinage de $+\infty$.
+   \end{minipage}
+\end{intgr}
+
+\subsection{Limite infinie}
+
+\begin{dfn}
+Dire que la fonction $f$ admet pour limite $+\infty$ quand $x$ tend vers $+\infty$ signifie que tout intervalle de la forme $\intervalleo{A;+\infty}$ contient toutes les valeurs $f(x)$ pour tout $x$ suffisamment grand.\newline
+On écrit $\lim\limits_{x\to +\infty} f(x)=+\infty$ ou $\lim\limits_{+\infty} f=+\infty$.
+\end{dfn}
+
+\begin{dfn}
+Dire que la fonction $f$ admet pour limite $-\infty$ quand $x$ tend vers $+\infty$ signifie que tout intervalle de la forme $\intervalleo{-\infty;A}$ contient toutes les valeurs $f(x)$ pour $x$ assez grand.\newline
+On écrit $\lim\limits_{x\to +\infty} f(x)=-\infty$ ou $\lim\limits_{+\infty} f=-\infty$.
+\end{dfn}
+
+\begin{intgr}~\newline
+   \begin{minipage}{0.47\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limiteplusinf-anim-multipagespdf}%
+	{0}{31}
+   \end{minipage}
+	\hfill
+	\begin{minipage}{0.47\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonctions-limites-c-limitemoinsinf-anim-multipagespdf}%
+	{0}{31}
+   \end{minipage}
+\end{intgr}
+
+\section{Limite  d'une fonction en $\boldmath{-\infty}$}
+
+\begin{centered}
+$f$ est une fonction dont l'ensemble de définition contient un intervalle de la forme $\intervalleo{-\infty;x_0}$ avec $x_0\in\R$.
+\end{centered}
+
+\subsection{Limite finie, asymptote horizontale}
+
+\begin{dfn}
+Soit $\ell$ un réel.
+Dire que la fonction $f$ admet pour limite $\ell$ quand $x$ tend vers $-\infty$ signifie que tout intervalle ouvert contenant $\ell$ contient toutes les valeurs $f(x)$ pour tout $x$ suffisamment petit.\newline
+On écrit $\lim\limits_{x\to -\infty} f(x)=\ell$ ou $\lim\limits_{-\infty} f=\ell$.
+\end{dfn}
+
+\begin{prp}
+$\lim\limits_{x\to -\infty}f(x)=\ell \Longleftrightarrow \lim\limits_{x\to -\infty}\left( f(x)-\ell\right)=0 \Longleftrightarrow \lim\limits_{x\to -\infty}\lvert f(x)-\ell\rvert=0$.
+\end{prp}
+
+\begin{dfn}
+Si $\lim\limits_{x\to -\infty} f(x)=\ell$ alors on dit que la droite d'équation $y=\ell$ est asymptote horizontale à $\mathcal C_f$ en $-\infty$.
+\end{dfn}
+
+
+\begin{intgr}~\newline
+%On note $\crbf$ la courbe représentative de $f$ et $\mathcal D$ la droite d'équation $y=\ell$.\newline
+\begin{minipage}{0.48\linewidth}
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limitefinieenmoinsinf-anim-multipagespdf}%
+	{0}{31}
+\end{minipage} 
+\begin{minipage}{0.48\linewidth}
+Quel que soit l'intervalle ouvert $I$ contenant $\ell$ (en rouge sur l'axe des ordonnées), on peut trouver un réel $\alpha$ tel que $f(x)$ soit dans $I$ pour tout réel $x<\alpha$.
+\end{minipage} 
+\end{intgr}
+
+\subsection{Limite infinie}
+
+\begin{dfn}
+Dire que la fonction $f$ admet pour limite $+\infty$ quand $x$ tend vers $-\infty$ signifie que tout intervalle de la forme $\intervalleo{A;+\infty}$ contient toutes les valeurs $f(x)$ pour tout $x$ suffisamment petit.\newline
+On écrit $\lim\limits_{x\to -\infty} f(x)=+\infty$ ou $\lim\limits_{-\infty} f=+\infty$.
+\end{dfn}
+
+\begin{dfn}
+Dire que la fonction $f$ admet pour limite $-\infty$ quand $x$ tend vers $-\infty$ signifie que tout intervalle de la forme $\intervalleo{-\infty;A}$ contient toutes les valeurs $f(x)$ pour tout $x$ suffisamment petit.\newline
+On écrit $\lim\limits_{x\to -\infty} f(x)=-\infty$ ou $\lim\limits_{-\infty} f=-\infty$.
+\end{dfn}
+
+\begin{intgr}~\newline
+   \begin{minipage}{0.5\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limiteplusinfenmoinsinf-anim-multipagespdf}%
+	{0}{31}
+   \end{minipage}
+	\hfill
+	\begin{minipage}{0.5\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonctions-limites-c-limitemoinsinfenmoinsinf-anim-multipagespdf}%
+	{0}{31}
+   \end{minipage}
+\end{intgr}
+
+\section{Limite d'une fonction en un réel}
+
+$f$ est une fonction définie sur un intervalle ouvert $I$ et $a$ un réel appartenant à $I$ ou une borne de $I$.
+
+\subsection{Limite infinie en un réel, asymptote verticale}
+
+\begin{dfn}
+Dire que $f$ admet pour limite $+\infty$ quand $x$ tend vers $a$, signifie que tout intervalle de la forme $\intervalleo{A;+\infty}$ contient toutes les valeurs $f(x)$  pour tout $x$ suffisamment proche de $a$.\newline
+On écrit $\lim\limits_{x\to a} f(x)=+\infty$ ou $\lim\limits_{a} f=+\infty$.
+\end{dfn}
+
+\begin{dfn}
+Dire que $f$ admet pour limite $-\infty$ quand $x$ tend vers $a$, signifie que tout intervalle de la forme $\intervalleo{-\infty;A}$ contient toutes les valeurs $f(x)$  pour tout $x$ suffisamment proche de $a$.\newline
+On écrit $\lim\limits_{x\to a} f(x)=-\infty$ ou $\lim\limits_{a} f=-\infty$.
+\end{dfn}
+
+\begin{dfn}
+Si $\displaystyle \lim_{x\to a} f(x)=+\infty$ ou $\displaystyle \lim_{x\to a} f(x)=-\infty$ alors on dit que la droite d'équation $x=a$ est une asymptote verticale à la courbe $\mathcal C_f$.
+\end{dfn}
+\enlargethispage{\baselineskip}
+\begin{intgr}~\newline
+   \begin{minipage}{0.47\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limiteplusinfena-anim-multipagespdf}%
+	{0}{29}
+   \end{minipage}
+	\hfill
+	\begin{minipage}{0.47\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limitemoinsinfena-anim-multipagespdf}%
+	{0}{39}
+   \end{minipage}
+\end{intgr}
+
+\subsection{Limite à gauche et limite à droite}
+
+\begin{dfn}
+Dire que $f$ admet pour limite $+\infty$ (resp. $-\infty$) quand $x$ tend vers $a$ à droite, signifie que tout intervalle de la forme $\intervalleo{A;+\infty}$ (resp. $\intervalleo{-\infty;A}$) contient toutes les valeurs $f(x)$  pour tout $x$ suffisamment proche de $a$, $x$ restant strictement supérieur à $a$.\newline
+On écrit $\lim\limits_{\substack{x\to a\\x>a}} f(x)=+\infty$ (resp. $\lim\limits_{\substack{x\to a\\x>a}} f(x)=-\infty$), ou encore $\lim\limits_{x\to a^+} f(x)=+\infty$ (resp. $\lim\limits_{x\to a^+} f(x)=-\infty$).
+\end{dfn}
+
+\begin{dfn}
+Dire que $f$ admet pour limite $+\infty$ (resp. $-\infty$) quand $x$ tend vers $a$ à gauche, signifie que tout intervalle de la forme $\intervalleo{A;+\infty}$ (resp. $\intervalleo{-\infty;A}$) contient toutes les valeurs $f(x)$  pour tout $x$ suffisamment proche de $a$, $x$ restant strictement inférieur à $a$.\newline
+On écrit $\lim\limits_{\substack{x\to a\\x<a}} f(x)=+\infty$ (resp. $\lim\limits_{\substack{x\to a\\x<a}} f(x)=-\infty$), ou encore $\lim\limits_{x\to a^-} f(x)=+\infty$ (resp. $\lim\limits_{x\to a^-} f(x)=-\infty$).
+\end{dfn}
+
+\begin{dfn}
+Si $\lim\limits_{\substack{x\to a\\x<a}} f(x)=-\infty$, $\lim\limits_{\substack{x\to a\\x<a}} f(x)=+\infty$, $\lim\limits_{\substack{x\to a\\x>a}} f(x)=-\infty$ ou $\lim\limits_{\substack{x\to a\\x>a}} f(x)=+\infty$ alors on dit que la droite d'équation $x=a$ est une asymptote verticale à  $\mathcal C_f$.
+\end{dfn}
+
+\begin{intgr}~\newline
+	\begin{minipage}{0.47\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limitegaucheena-anim-multipagespdf}%
+	{0}{29}
+   \end{minipage}
+	\hfill
+   \begin{minipage}{0.47\linewidth}%
+\animategraphics[controls,poster=first]%
+	{3}%
+	{./animation/ts-fonction-limites-c-limitedroiteena-anim-multipagespdf}%
+	{0}{25}
+   \end{minipage}
+\end{intgr}
+
+%\subsection{Limite finie en un réel}
+%
+%\begin{dfn}
+%Soit $\ell$ un réel.\\
+%Dire que $f$ admet pour limite $\ell$ quand $x$ tend vers $a$, signifie que tout intervalle ouvert 
+%contenant $\ell$ contient toutes les valeurs $f(x)$ pour tout $x$ suffisamment proche de $a$.\newline
+%On écrit $\displaystyle \lim_{x\to a} f(x)=\ell$ ou $\displaystyle \lim_{a} f=\ell$.
+%\end{dfn}
+%
+%
+%\begin{intgr}~\ 
+%\psset{xunit=1cm,yunit=1.5cm,plotpoints=200}
+%\begin{pspicture*}(-1.5,-0.5)(4.5,2.5)
+%\psline[linewidth=1.5pt]{->}(-1.5,0)(4.5,0)
+%\psline[linewidth=1.5pt]{->}(0,-0.5)(0,2.5)
+%\pscustom[fillstyle=solid,fillcolor=green,linewidth=0pt]{
+%\psplot{1.3}{2.3}{2.3 2.5 sub 2.3 10 add mul -25 div 0.5 add }
+%\psplot{2.3}{1.3}{1.3 2.5 sub 1.3 10 add mul -25 div 0.5 add }
+%\psplot{1.3}{2.3}{2.3 2.5 sub 2.3 10 add mul -25 div 0.5 add }
+%}
+%\psplot[linecolor=blue,linewidth=1.5pt]{-1.5}{4}{x 2.5 sub x 10 add mul -25 div 0.5 add}
+%%\psplot[linecolor=red,linewidth=1pt]{0}{4}{0.5 x mul 0.5 sub  }
+%\psline[linestyle=dashed](!2.3 0)(!2.3 1.3 2.5 sub 1.3 10 add mul -25 div 0.5 add)
+%\psline[linestyle=dashed](!1.3 0)(!1.3 1.3 2.5 sub 1.3 10 add mul -25 div 0.5 add)
+%\psline[linestyle=dashed](!2.3 2.3 2.5 sub 2.3 10 add mul -25 div 0.5 add)(!0 2.3 2.5 sub 2.3 10 add mul -25 div 0.5 add)
+%\psline[linestyle=dashed](!2.3 1.3 2.5 sub 1.3 10 add mul -25 div 0.5 add)(!0 1.3 2.5 sub 1.3 10 add mul -25 div 0.5 add)
+%\psline[linecolor=red](1.8,0)(!1.8 1.8 2.5 sub 1.8 10 add mul -25 div 0.5 add)
+%\psline[linecolor=red](!0 1.8 2.5 sub 1.8 10 add mul -25 div 0.5 add)(!1.8 1.8 2.5 sub 1.8 10 add mul -25 div 0.5 add)
+%\psline[linecolor=yellow,linewidth=1.5pt](1.3,0)(2.3,0) \psline[linecolor=yellow,linewidth=1.5pt](!0 2.3 2.5 sub 2.3 10 add mul -25 div 0.5 add)(!0 1.3 2.5 sub 1.3 10 add mul -25 div 0.5 add)
+%\psdot(!1.8 1.8 2.5 sub 1.8 10 add mul -25 div 0.5 add)
+%\uput[-90](1.8,0){$a$}
+%\uput[180](!0 1.8 2.5 sub 1.8 10 add mul -25 div 0.5 add){$\ell$}
+%%\psline[linestyle=dashed](3,0)(!3 0.5 3 mul 0.5 sub)
+%%\uput[-90](3,0){$x$}
+%\end{pspicture*}
+%\end{intgr}
+
+\section{Détermination d'une limite}
+
+    \subsection{Généralités}
+
+\begin{prp}[name={Unicité de la limite}] $f$ est une fonction, $\ell$ un réel et $\alpha$ est un réel ou $+\infty$ ou $-\infty$.
+
+Si $f(x)$ admet une limite lorsque $x$ tend vers $\alpha$ alors cette limite est unique.
+\end{prp}
+
+\begin{prp}[name={Limites des fonctions de références}]$n$ est un entier naturel non nul.
+\begin{itemize}
+\item
+    $\lim\limits_{x\to -\infty}x=-\infty$ et $\lim\limits_{x\to +\infty}x=+\infty$, \hfill
+    $\lim\limits_{x\to -\infty}x^2=\lim\limits_{x\to +\infty}x^2=+\infty$, \hfill
+    $\lim\limits_{x\to -\infty}x^3=-\infty$ et $\lim\limits_{x\to +\infty}x^3=+\infty$.
+
+\medskip
+
+Plus généralement :
+
+    \begin{itemize-}[label=\textopenbullet](2)
+    \item Si $n$ est pair : $\lim\limits_{x\to -\infty}x^n=\lim\limits_{x\to +\infty}x^n=+\infty$.
+    \item Si $n$ est impair : $\lim\limits_{x\to -\infty}x^n=-\infty$ et $\lim\limits_{x\to +\infty}x^n=+\infty$.
+    \end{itemize-}
+
+\medskip
+  
+\item
+    $\lim\limits_{x\to -\infty}\frac1x=\lim\limits_{x\to +\infty}\frac1x=0$, \hfill
+    $\lim\limits_{x\to -\infty}\frac1{x^2}=\lim\limits_{x\to +\infty}\frac1{x^2}=0$, \hfill
+    $\lim\limits_{x\to -\infty}\frac1{x^3}=\lim\limits_{x\to +\infty}\frac1{x^3}=0$.
+
+\medskip
+
+ Plus généralement, $\lim\limits_{x\to -\infty}\frac1{x^n}=\lim\limits_{x\to +\infty}\frac1{x^n}=0$.
+
+\medskip
+
+\item
+    $\lim\limits_{\substack{x\to 0\\x<0}}\frac1x=-\infty$ et $\lim\limits_{\substack{x\to 0\\x>0}}\frac1x=+\infty$, \hfill
+    $\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^2}=\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^2}=+\infty$, \hfill
+    $\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^3}=-\infty$ et $\lim\limits_{\substack{x\to 0\\x>0}}\frac1{x^3}=+\infty$.
+
+\medskip
+  
+Plus généralement :
+    \begin{itemize-}[label=\textopenbullet](2)
+    \item Si $n$ est pair : $\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^n}=\lim\limits_{\substack{x\to 0\\x>0}}\frac1{x^n}=+\infty$.
+    \item Si $n$ est impair : $\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^n}=-\infty$ et $\lim\limits_{\substack{x\to 0\\x>0}}\frac1{x^n}=+\infty$.
+    \end{itemize-}
+
+\medskip
+  
+\item $\lim\limits_{x\to +\infty} \sqrt x=+\infty$.
+\vspace*{2pt}\item $\lim\limits_{\substack{x\to 0\\x>0}} \frac 1{\sqrt x}=+\infty$ et $\lim\limits_{x\to +\infty} \frac 1{\sqrt x}=0$
+\vspace*{2pt}\item $\lim\limits_{x\to -\infty} \Exp^{x}=0$ et $\lim\limits_{x\to +\infty} \Exp^x=+\infty$.
+\end{itemize}
+\end{prp}
+
+%
+%\begin{tblr}{%
+%    colspec={X[c,1]X[c,1]}, row{4}={c=2}{c}%,hlines={1,4,5}{solid}
+%    }%
+%Si $n$ est pair : & Si $n$ est impair :\\
+%$\lim\limits_{x\to -\infty}x^n=\lim\limits_{x\to +\infty}x^n=+\infty$ &  $\lim\limits_{x\to -\infty}x^n=-\infty$ et $\lim\limits_{x\to +\infty}x^n=+\infty$\\
+%$\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^n}=\lim\limits_{\substack{x\to 0\\x>0}}\frac1{x^n}=+\infty$ & $\lim\limits_{\substack{x\to 0\\x<0}}\frac1{x^n}=-\infty$ et $\lim\limits_{\substack{x\to 0\\x>0}}\frac1{x^n}=+\infty$\\
+%$\lim\limits_{x\to -\infty}\frac1{x^n}=\lim\limits_{x\to +\infty}\frac1{x^n}=0$ &\\
+%\end{tblr}
+%
+%
+
+\begin{thr}[name={Limites et opérations}]
+$\ell$ et $\ell'$ sont des réels et $f$ et $g$ sont des fonctions ayant une limite en $\alpha$ où $\alpha$ est un réel, $-\infty$ ou $+\infty$.
+\begin{itemize}
+\item Limite d'une somme :\newline
+\begin{tabu}to \linewidth{|p{2cm}|*{6}{X[1,$,c,m]|}}\everyrow{\tabucline-}\tabucline-
+\centering $\lim\limits_{\alpha} f$%
+	&\ell		&\ell		&\ell		&+\infty	&-\infty	& +\infty\\
+\centering $\lim\limits_{\alpha} g$%
+	&\ell'		&-\infty	&+\infty	&+\infty	& -\infty	& -\infty\\
+\centering $\lim\limits_{\alpha} \left(f+g\right)$%
+	&\ell+\ell'	&-\infty	&+\infty	&+\infty	& -\infty	&\text{F.I.}\tabuphantomline
+\end{tabu}
+\pagebreak\item  Limite d'un produit :\newline
+\begin{tabu}to \linewidth{|p{2cm}|*{6}{X[1,$,c,m]|}}%
+\everyrow{\tabucline-}\tabucline-%
+\centering $\lim\limits_{\alpha} f$%
+						&\ell%
+							&\multicolumn{2}{c|}{$\ell< 0$ ou $-\infty$}%
+									&\multicolumn{2}{c|}{$\ell> 0$ ou $+\infty$}%	
+											&	0	\\
+\centering $\lim\limits_{\alpha} g$%
+						&\ell'%
+							&-\infty%	
+								&+\infty	%
+									&-\infty%
+											&+\infty%
+												&	\pm\infty	\\%
+\centering $\lim\limits_{\alpha} \left(f\times g\right)$%
+						&\ell\times \ell'%
+							&	+\infty%
+								&	-\infty%
+									&	-\infty%
+										&	+\infty%
+											& \text{F.I.}\tabuphantomline%
+\end{tabu}
+\item  Limite d'un quotient dont le dénominateur ne tend pas vers $0$ :\newline
+\begin{tabu}to \linewidth{|p{2cm}|*{8}{X[1,$,c,m]|}}%
+\everyrow{\tabucline-}\tabucline-%
+\centering $\lim\limits_{\alpha} f$%
+						&\multicolumn{3}{c|}{$\ell$}%
+									&\multicolumn{2}{c|}{$-\infty$}%
+											&	\multicolumn{2}{c|}{$+\infty$}%
+													&\pm\infty	\\
+\centering $\lim\limits_{\alpha} g$%
+						&\ell'	\neq0%
+							&	\multicolumn{2}{c|}{$-\infty$ ou $+\infty$}%
+									&\ell'<0%
+										&\ell'>0%
+											&\ell'<0%
+												&	\ell'>0%
+													&\pm\infty \\
+\centering $\lim\limits_{\alpha} \frac{f}{g}$%
+						&\frac{\ell}{\ell'}%
+							&	\multicolumn{2}{c|}{$0$}%
+								&	+\infty%
+									&	-\infty%
+										& -\infty%
+											&+\infty%
+												&\text{F.I.}\tabuphantomline
+\end{tabu}
+\item  Limite d'un quotient dont le dénominateur tend vers $0$ :\newline
+\begin{tabu}to \linewidth{|p{2cm}|*{4}{X[1.5,$,c,m]|}X[1,$,c,m]|}%
+\everyrow{\tabucline-}\tabucline-%
+\centering $\lim\limits_{\alpha} f$%
+			&\multicolumn{2}{c|}{$\ell<0$ ou $-\infty$}%
+					&\multicolumn{2}{c|}{$\ell>0$ ou $+\infty$}%
+							&0\\
+\centering $\lim\limits_{\alpha} g=0$%
+			&\text{ et } g(x)<0\text{ au} \newline \text{voisinage de } \alpha%
+				&\text{ et } g(x)>0\text{ au} \newline \text{voisinage de } \alpha%
+					&\text{ et } g(x)<0\text{ au} \newline \text{voisinage de } \alpha%
+						&\text{ et } g(x)>0\text{ au} \newline  \text{voisinage de } \alpha%
+							&0\\
+\centering $\lim\limits_{\alpha} \frac{f}{g}$%
+			&+\infty%
+				&-\infty%
+					&-\infty%
+						&+\infty
+							&\text{F.I.}\\
+\end{tabu}
+\end{itemize}
+\end{thr}
+Lorsqu'on parle de \emph{voisinage de $\alpha$} cela signifie que l'on considère tous les réels $x$ d'un intervalle ouvert :
+\begin{itemize}
+\item contenant $\alpha$ si $\alpha\in\R$.
+
+Par exemple $\intervalleo{1;3}$ est un voisinage de $2$ et de $1,5$.
+\item de borne $+\infty$ si $\alpha=+\infty$.
+
+Par exemple $\intervalleo{1;+\infty}$ est un voisinage de $+\infty$.
+\item de borne $-\infty$ si $\alpha=-\infty$.
+
+Par exemple $\intervalleo{-\infty;3}$ est un voisinage de $-\infty$. 
+\end{itemize}
+Un tel intervalle est d'ailleurs appelé un voisinage de $\alpha$.
+
+
+\subsection{Croissances comparées}
+
+\begin{thr}$n$ est un entier naturel.
+\begin{itemize-}(2)
+\item $\lim\limits_{x\to +\infty} \frac{\Exp^x}{x}=+\infty$ et  $\lim\limits_{x\to +\infty} \frac{\Exp^x}{x^n}=+\infty$.
+\item $\lim\limits_{x\to -\infty}x\Exp^x=0$ et $\lim\limits_{x\to -\infty}x^n\Exp^x=0$.
+\end{itemize-}
+\end{thr}
+
+\subsection{Limites et comparaison}
+\noindent $f$, $g$ et $h$ sont trois fonctions, $\alpha$ est un réel ou $+\infty$ ou $-\infty$, $\ell$ et $\ell'$ sont deux réels.
+
+\begin{thr}
+Si pour tout réel $x$ d'un voisinage de $\alpha$ on a $f(x)\leqslant g(x)$ et si $\lim\limits_{x\to \alpha}f(x)=\ell$ et $\lim\limits_{x\to \alpha}g(x)=\ell'$ alors $\ell\leqslant \ell'$.
+\end{thr}
+%\begin{prv}
+%Démontrons cette propriété dans le cas $\alpha$ est fini.\\
+%Par l'absurde. Supposons que $l> l'$. Posons $\displaystyle \epsilon = \frac{l-l'}3$\\
+%$\displaystyle \lim_{x\to \alpha}f(x)=\ell$, donc l'intervalle $J=]l-\epsilon ; l+\epsilon [$ contient toutes les valeurs $f(x)$ pour $x$ assez proche de $\alpha$, disons pour $x$ dans l'intervalle $]\alpha-\eta ; \alpha+\eta [$.\\
+%$\displaystyle \lim_{x\to \alpha}g(x)=l'$, donc l'intervalle $J'=]l'-\epsilon ; l'+\epsilon [$ contient toutes les valeurs $g(x)$ pour $x$ assez proche de $\alpha$, disons pour $x$ dans l'intervalle $]\alpha-\eta ' ; \alpha+\eta ' [$.\\
+%Soit $I=]\alpha-\eta ; \alpha+\eta [\cap ]\alpha-\eta ';\alpha+\eta '[$, pour $x\in I$, $J$ contient toutes les valeurs $f(x)$ et $J'$ toutes les valeurs $g(x)$
+%
+%\begin{multicols}{2}
+%\psset{xunit=1cm,yunit=1cm}
+%\begin{pspicture*}(-0.5,0)(5,0)
+%\psline{->}(-0.5,0)(5.5,0)
+%\psline[linecolor=red,linewidth=1.5pt](0,0)(2,0)
+%\psline[linecolor=red,linewidth=1.5pt](3,0)(5,0)
+%\rput(0.5,0.2){\textcolor{red}{$J'$}} \rput(4.5,0.2){\textcolor{red}{$J$}}
+%\rput(0,0){\textcolor{red}{$]$}} \rput(2,0){\textcolor{red}{$[$}} \rput(3,0){\textcolor{red}{$]$}} \rput(5,0){\textcolor{red}{$[$}}
+%\rput(1,0){$|$} \rput(4,0){$|$}
+%\psdot(1.5,0) \psdot(3.5,0)
+%\rput(1.5,0.2){$g(x)$} \rput(3.5,0.2){$f(x)$}
+%\rput(1,-0.5){$l'$} \rput(4,-0.5){$\ell$}
+%\end{pspicture*}%\\[0.5cm]
+%
+%D'après le schéma ci-contre, on remarque que $f(x)>g(x)$ pour $x\in I$, ce qui contredit notre hypothèse, donc $l\geqslant l'$.
+%\end{multicols}
+%\end{prv}
+%\begin{prv}
+%Démontrons cette propriété dans le cas $a=+\infty$.\\
+%Par l'absurde, supposons qu'il existe deux limites $\ell$ et $l'$ et posons $l>l'$ et $\epsilon = \frac {l-l'}3$.\\
+%$\displaystyle \lim_{x\to a}f(x)=\ell$, donc l'intervalle $J=]l-\epsilon ; l+\epsilon [$ contient toutes les valeurs $f(x)$ pour $x$ assez grand, disons pour $x$ dans l'intervalle $]A;+\infty [$.\\
+%$\displaystyle \lim_{x\to a}f(x)=l'$, donc l'intervalle $J'=]l'-\epsilon ; l'+\epsilon [$ contient toutes les valeurs $f(x)$ pour $x$ assez grand, disons pour $x$ dans l'intervalle $]A'; +\infty [$.\\
+%
+%\begin{multicols}{2}
+%\psset{xunit=1cm,yunit=1cm}
+%\begin{pspicture*}(-0.5,0)(5,0)
+%\psline{->}(-0.5,0)(5.5,0)
+%\psline[linecolor=red,linewidth=1.5pt](0,0)(2,0)
+%\psline[linecolor=red,linewidth=1.5pt](3,0)(5,0)
+%\rput(0.5,0.2){\textcolor{red}{$J'$}} \rput(4.5,0.2){\textcolor{red}{$J$}}
+%\rput(0,0){\textcolor{red}{$]$}} \rput(2,0){\textcolor{red}{$[$}} \rput(3,0){\textcolor{red}{$]$}} \rput(5,0){\textcolor{red}{$[$}}
+%\rput(1,0){$|$} \rput(4,0){$|$}
+%\psdot(1.5,0) \psdot(3.5,0)
+%\rput(1.5,0.2){$f(x)$} \rput(3.5,0.2){$f(x)$}
+%\rput(1,-0.5){$l'$} \rput(4,-0.5){$\ell$}
+%\end{pspicture*}%\\[1cm]
+%
+%Soit $B=max(A;A')$, pour $x\in ]B; +\infty [$, $J$ et $J'$ contiennent toutes les valeurs $f(x)$, ce qui est impossible, d'après le schéma ci-contre. Ce qui contredit notre hypothèse, donc $l=l'$.
+%\end{multicols}
+%\end{prv}
+
+
+
+\begin{thr} 
+\begin{itemize}
+\item Si pour tout réel $x$ d'un voisinage de $\alpha$ on a  $f(x)\leqslant g(x)$ et si $\lim\limits_{x\to \alpha}g(x)=-\infty$ alors $\lim\limits_{x\to \alpha}f(x)=-\infty$.
+\item Si pour tout réel $x$ d'un voisinage de $\alpha$ on a  $f(x)\leqslant g(x)$ et si $\lim\limits_{x\to \alpha}f(x)=+\infty$  alors $\lim\limits_{x\to \alpha}g(x)=+\infty$.
+\end{itemize}
+\end{thr}
+
+\begin{thr}[name=Théorème des gendarmes]
+Si pour tout réel $x$ d'un voisinage de $\alpha$ on a  $f(x)\leqslant g(x) \leqslant h(x)$ et si $\lim\limits_{x\to \alpha}f(x)=\lim\limits_{x\to \alpha}h(x)=\ell$ alors $\lim\limits_{x\to \alpha}g(x)=\ell$.
+\end{thr}
+%\begin{prv}
+%Démontrons ce théorème pour $\alpha=+\infty$.\\
+%Soit $I$ un intervalle ouvert contenant $\ell$, il s'agit de montrer que $I$ contient toutes les valeurs $h(x)$ pour $x$ assez grand.\\
+%Comme $\displaystyle \lim_{x\to \alpha}f(x)=\ell$, $I$ contient toutes les valeurs $f(x)$ pourvu que $x$ soit plus grand qu'un réel $A_1$, et comme $\displaystyle \lim_{x\to \alpha}g(x)=\ell$, $I$ contient toutes les valeurs $g(x)$ pourvu que $x$ soit plus grand qu'un réel $A_2$.\\
+%En posant $A=max(A_1,A_2)$, si $x$ est plus grand que $A$ alors $I$ contient $f(x)$ et $g(x)$. Ainsi $I$ contient $h(x)$. 
+%\end{prv}
+
